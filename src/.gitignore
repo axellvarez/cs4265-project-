@@ -1,1 +1,16 @@
+# Project Specific Data 
+data/
 
+# Security 
+.env
+*.log
+
+# Python Environment
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# System Files 
+.DS_Store
