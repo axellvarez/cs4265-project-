@@ -1,0 +1,16 @@
+# Project Specific Data (Requirement)
+data/
+
+# Security (Requirement)
+.env
+*.log
+
+# Python Environment
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# System Files (Mac Specific)
+.DS_Store
