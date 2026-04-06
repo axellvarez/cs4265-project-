@@ -41,7 +41,7 @@ Create a .env file in the root directory to store your API credentials:
 
 TOMTOM_API_KEY=your_api_key_here
 
-*Note: NOAA and PowerOutage.us sources are accessed via public endpoints and do not require keys for this implementation.*
+*Note: NOAA and PowerOutage.us sources are accessed via public endpoints and do not require keys for this implementation. TOMTOM API Keys are available for free after creating an account at https://developer.tomtom.com/user/login*
 
 ---
 
