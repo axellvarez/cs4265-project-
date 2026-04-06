@@ -1,0 +1,4 @@
+incident_type,weather_event,severity,outage_county,active_outages,headline
+Accident,Tornado Warning,Extreme,Fulton,1250,"TORNADO WARNING REMAINS IN EFFECT UNTIL 11:45 PM EDT FOR NORTHWESTERN FULTON COUNTY"
+Jam,Flash Flood Warning,Severe,DeKalb,430,"FLASH FLOOD WARNING FOR WESTERN DEKALB COUNTY"
+Construction,Severe Thunderstorm Warning,Moderate,Cobb,12,"SEVERE THUNDERSTORM WARNING FOR COBB COUNTY"
