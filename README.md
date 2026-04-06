@@ -53,7 +53,9 @@ The pipeline is designed to run end-to-end without manual intervention.
 Run the ingestion scripts to populate the data/raw/ directory:
 
 python3 src/ingestion/fetch_data.py      # Ingests NOAA Weather
+
 python3 src/ingestion/fetch_traffic.py   # Ingests DOT Traffic
+
 python3 src/ingestion/scrape_outages.py  # Scrapes Power Outages
 
 ### Stage 2: Data Transformation (Processing)
@@ -65,6 +67,8 @@ python3 src/processing/spatial_join.py
 
 ## Data Dictionary (Silver Layer)
 The final output is saved as a partitioned Parquet dataset in data/processed/swiias_impacts.parquet.
+
+Note: Because the pipeline processes real-time NOAA and DOT feeds, the data/processed/ directory may be empty if there are currently no active weather alerts intersecting with traffic incidents in the 10 target metro areas. Please refer to the /samples directory for a demonstration of the integrated schema and join logic.
 
 | Column | Type | Description |
 | :--- | :--- | :--- |
